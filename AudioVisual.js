@@ -36,14 +36,6 @@
             this.canvasContext = this.canvasElement.getContext("2d");
             this.canvasElement.width = window.outerWidth;
             this.canvasElement.height = window.outerHeight;
-            if (window.outerWidth < window.outerHeight) {
-                this.canvasElement.width = window.outerHeight;
-                this.canvasElement.height = window.outerWidth;
-                this.canvasElement.style.cssText = `
-                    -webkit-transform:rotate(-90deg);
-                    transform:rotate(-90deg);
-                `;
-            }
             this.canvasContext.strokeStyle = "#fff";
             this.canvasContext.rotate(Math.PI);
             this.canvasContext.translate(0, -this.canvasElement.height);
