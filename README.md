@@ -50,11 +50,15 @@
             <td>config</td>
             <td>配置</td>
             <td>Object</td>
-            <td>```js{
+            <td>
+              ```js
+              {
                 isAutoRun: true, // auto play and dance
                 isVibrating: false, // launch vibrate
                 thickness: 1024, // Must be a power of 2 between 2^5 and 2^15, 32~32768. Defaults to 2048.
-            }```</td>
+            }
+              ```
+          </td>
         </tr>
     </tbody>
 </table>
