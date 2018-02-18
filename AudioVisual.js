@@ -49,7 +49,7 @@
             this.gradient = null;
             this.lw = 10;
 
-            // vibarte
+            // vibrate
             navigator.vibrate = navigator.vibrate || navigator.webkitVibrate || navigator.mozVibrate || navigator.msVibrate;
 
             // add listener to file
