@@ -12,7 +12,7 @@ check this file: `src/index.js`
 #### 使用
 1. 标签引入
 ```html
-<script src="./fakepath/AudioVisual.js"></script>
+<script src="./dist/AudioVisual.min.js"></script>
 ```
 2. 实例化
 ```js
