@@ -1,21 +1,10 @@
-## audio-visual ![NPM version](https://img.shields.io/npm/v/audio-visual.svg?style=flat)
+## audio-visual
 
 This a plugin of audio data visualization
 
 #### 功能：
 1. 动态可视化音频数据，随音乐起舞
 2. 敬请期待 ...
-
-
-### Installation
-```bash
-$ npm install audio-visual
-```
-
-### Example
-```js
-var audioVisual = require('audio-visual');
-```
 
 ### API
 check this file: `src/index.js`
