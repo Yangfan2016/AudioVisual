@@ -1,24 +1,30 @@
-## audio-visual
+## AudioVisual
 
-This a plugin of audio data visualization
+> This a plugin of audio data visualization
 
 #### 功能：
 1. 动态可视化音频数据，随音乐起舞
 2. 敬请期待 ...
 
 ### API
-check this file: `src/index.js`
+check this file: `src/index.ts`
 
-#### 使用
+
+### Example
+
+check this file: `test/index.html`
+
+### Install
 1. 标签引入
 ```html
 <script src="./dist/AudioVisual.min.js"></script>
 ```
-2. 实例化
+2. 实例化（file可选）
 ```js
-var av = new AudioVisual(file, audio, canvas[, config]);
+var av = new AudioVisual(audio, canvas[, config]);
 ```
-#### 参数
+
+### Params
 
 <table>
     <thead>
@@ -52,13 +58,45 @@ var av = new AudioVisual(file, audio, canvas[, config]);
             <td>config</td>
             <td>配置</td>
             <td>Object</td>
-            <td>
-              {  
-                isAutoRun: true, // auto play and dance  
-                isVibrating: false, // launch vibrate  
-                thickness: 1024, // Must be a power of 2 between 2^5 and 2^15, 32~32768. Defaults to 2048.  
-              }  
-          </td>
+            <td>参见下面的配置说明 options</td>
+        </tr>
+    </tbody>
+</table>
+
+#### options
+<table>
+    <thead>
+        <tr>
+            <th>参数</th> 
+            <th>说明</th> 
+            <th>类型</th> 
+            <th>默认值</th>
+        </tr>
+    </thead> 
+    <tbody>
+        <tr>
+            <td>isAutoRun</td>
+            <td>自动运行</td>
+            <td>Boolean</td>
+            <td>在音频文件读取完成后立即运行</td>
+        </tr>
+        <tr>
+            <td>thickness</td>
+            <td>粒度</td>
+            <td>Number</td>
+            <td>默认 2048 范围 32~32768，必须是2的n次方</td>
+        </tr>
+        <tr>
+            <td>colorStops</td>
+            <td>渐变色序列</td>
+            <td>Arrary<string></td>
+            <td>内置默认6种渐变色</td>
+        </tr>
+        <tr>
+            <td>fileElement</td>
+            <td>文件控件，获取音频文件的入口</td>
+            <td>HTMLInputElement</td>
+            <td>可选</td>
         </tr>
     </tbody>
 </table>
