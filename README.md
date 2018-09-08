@@ -37,12 +37,6 @@ var av = new AudioVisual(audio, canvas[, config]);
     </thead> 
     <tbody>
         <tr>
-            <td>file</td>
-            <td>音频源</td>
-            <td>HTMLInputElement</td>
-            <td></td>
-        </tr>
-        <tr>
             <td>audio</td>
             <td>音频节点</td>
             <td>HTMLAudioElement</td>
