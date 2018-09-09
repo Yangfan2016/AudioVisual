@@ -6,6 +6,9 @@
 1. 动态可视化音频数据，随音乐起舞
 2. 敬请期待 ...
 
+
+![av.gif](https://raw.githubusercontent.com/Yangfan2016/PicBed/master/Blog/audio-visual.gif)
+
 ### API
 check this file: `src/index.ts`
 
@@ -76,9 +79,9 @@ var av = new AudioVisual(audio, canvas[, config]);
     <tbody>
         <tr>
             <td>isAutoRun</td>
-            <td>自动运行</td>
+            <td>在音频文件读取完成后立即运行</td>
             <td>Boolean</td>
-            <td>在音频文件读取完成后立即运行</td>
+            <td></td>
         </tr>
         <tr>
             <td>thickness</td>
