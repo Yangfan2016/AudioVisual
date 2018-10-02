@@ -1,0 +1,22 @@
+{
+  "name": "audio-visual",
+  "version": "1.0.0",
+  "description": "This a plugin of audio data visualization",
+  "repository": "https://github.com/Yangfan2016/AudioVisual.git",
+  "author": "yangfan2016 <15234408101@163.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "phtml": "pug test -P",
+    "clean": "rm -rf node_modules",
+    "build":"tsc && webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader":"^8.0.2",
+    "webpack":"^4.17.2",
+    "webpack-cli":"^3.1.0",
+    "typescript":"^3.0.3"
+  }
+}
