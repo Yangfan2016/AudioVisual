@@ -2,13 +2,13 @@
 
 > This a plugin of audio data visualization
 
+![av.gif](https://raw.githubusercontent.com/Yangfan2016/PicBed/master/Blog/audio-visual.gif)  
+
+
 ### Have
 - [x] 可视化音频数据
 - [x] 自定义渐变色
 - [x] 支持两种接入数据方式
-
-
-![av.gif](https://raw.githubusercontent.com/Yangfan2016/PicBed/master/Blog/audio-visual.gif)
 
 ### API
 check this file: `src/index.ts`
@@ -28,7 +28,7 @@ check this file: `test/index.html`
 var av = new AudioVisual(audio, canvas[, config]);
 ```
 
-### Params
+#### Params
 
 <table>
     <thead>
