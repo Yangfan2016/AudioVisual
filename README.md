@@ -2,7 +2,7 @@
 
 > This a plugin of audio data visualization
 
-#### 功能：
+### Have
 - [x] 可视化音频数据
 - [x] 自定义渐变色
 - [x] 支持两种接入数据方式
