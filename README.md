@@ -8,7 +8,7 @@
 ### Have
 - [x] 可视化音频数据
 - [x] 自定义渐变色
-- [x] 支持两种接入数据方式
+- [x] 支持两种数据接入方式
 
 ### API
 check this file: `src/index.ts`
