@@ -3,8 +3,9 @@
 > This a plugin of audio data visualization
 
 #### 功能：
-1. 动态可视化音频数据，随音乐起舞
-2. 敬请期待 ...
+- [x] 可视化音频数据
+- [x] 自定义渐变色
+- [x] 支持两种接入数据方式
 
 
 ![av.gif](https://raw.githubusercontent.com/Yangfan2016/PicBed/master/Blog/audio-visual.gif)
@@ -54,7 +55,7 @@ var av = new AudioVisual(audio, canvas[, config]);
         <tr>
             <td>config</td>
             <td>配置</td>
-            <td>Object</td>
+            <td>object</td>
             <td>参见下面的配置说明 options</td>
         </tr>
     </tbody>
@@ -74,19 +75,19 @@ var av = new AudioVisual(audio, canvas[, config]);
         <tr>
             <td>isAutoRun</td>
             <td>在音频文件读取完成后立即运行</td>
-            <td>Boolean</td>
-            <td></td>
+            <td>boolean</td>
+            <td>true</td>
         </tr>
         <tr>
             <td>thickness</td>
             <td>粒度</td>
-            <td>Number</td>
+            <td>number</td>
             <td>默认 2048 范围 32~32768，必须是2的n次方</td>
         </tr>
         <tr>
             <td>colorStops</td>
             <td>渐变色序列</td>
-            <td>Arrary<string></td>
+            <td>string[]</td>
             <td>内置默认6种渐变色</td>
         </tr>
         <tr>
